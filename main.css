@@ -1,1 +1,93 @@
 
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+}
+
+.title{
+    font-size: 45px;
+    align-self: flex-start;
+    width: 100%;
+}
+
+.a{
+    text-decoration: none;
+    color: black;
+}
+
+.first_con{
+    margin-top: 35px;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+    .info{
+        width: 45%;
+        background-color: #dadada;
+        border-radius: 35px;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 1%;
+    }
+
+    .text-con{
+        width: 100%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        
+    }
+        .text{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+.con{
+    background-color: #dadada;
+    border-radius: 35px;
+    font-size: 30px;  
+    margin: 100px;
+    margin-top: 40px;
+    height: 300px;
+    padding: 1%;
+}
+    .incon{
+        display: flex;
+        justify-content: center;
+    }
+
+    .price{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .el{
+        margin: 2%;
+        margin-left: 6%;
+        margin-right: 6%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+.footer{
+    color: white;
+    font-size: 20px;
+    background-color: #4B4B4B;
+    padding: 10px;
+}
+    .elements{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .el1{
+        padding-bottom: 35px;
+    }
